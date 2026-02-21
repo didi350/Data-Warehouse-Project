@@ -2,6 +2,8 @@
 
 (also copied, but from the right description) Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and analytics.
 
+(methods and techniques section is manually transcribed from the video, needs checking)
+
 (copied entirely from the project removed socials) ---------------------------------------------------------------------------
 # Data Warehouse and Analytics Project
 
@@ -76,6 +78,12 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+## 📂 Methods and Techniques
+```
+- **Extraction**: Pull Extraction (vs. Push), Full Extraction (vs. Incremental), File parsing as the Extracting Technique.
+- **Transformation (all methods)**: Data Enrichment, Data Integration, Derived Columns, Data Normalization and Standardization, Business Rules & Logic, Data Aggregations, and Data Cleansing (Remove Duplicates, Data Filtering, Handling Missing Data, Handling Invalid Values, Handling Unwanted Spaces, Data Type Casting and Outlier Detection).
+- **Loading**: Batch Processing (vs. Stream), Full Load (vs. Incremental) with Truncate & Insert method, and SDC 1 (Slowly Changing Dimensions) aka no historization, which “overwrites old with new data” (according to [Wikipedia](https://www.wikiwand.com/en/articles/Slowly_changing_dimension#Type_1:_overwrite)).
 
 ## 📂 Repository Structure
 ```
