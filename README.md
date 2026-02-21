@@ -1,9 +1,8 @@
-# Data-Warehouse
+# Data-Warehouse-Project (automatic name)
 
-Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and analytics.
-[README.md](https://github.com/user-attachments/files/25457644/README.md)
+(also copied, but from the right description) Building a modern data warehouse with SQL Server, including ETL processes, data modelling, and analytics.
 
-(copied) ---------------------------------------------------------------------------
+(copied entirely from the project removed socials) ---------------------------------------------------------------------------
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
@@ -77,8 +76,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
-For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
