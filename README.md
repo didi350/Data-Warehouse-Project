@@ -79,7 +79,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 📂 Methods and Techniques
+## 🪓 Methods and Techniques
 
 - **Extraction**: Pull Extraction (vs. Push), Full Extraction (vs. Incremental), File parsing as the Extracting Technique.
 - **Transformation (all methods)**: Data Enrichment, Data Integration, Derived Columns, Data Normalization and Standardization, Business Rules & Logic, Data Aggregations, and Data Cleansing (Remove Duplicates, Data Filtering, Handling Missing Data, Handling Invalid Values, Handling Unwanted Spaces, Data Type Casting and Outlier Detection).
