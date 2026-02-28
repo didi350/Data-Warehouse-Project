@@ -4,6 +4,13 @@
 
 USE master; -- Switch to the master database (system) to create your new project database.
 
+-- Check if the "Data Warehouse Project" database exists, then drop and recreate it.
+IF EXISTS (SELECT 1 FROM sys. databases WHERE name = 'Data Warehouse Project')
+BEGIN
+ALTER DATABASE 'Data Warehouse Project' SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+DROP DATABASE 'Data Warehouse Project';
+END;
+
 CREATE DATABASE "Data Warehouse Project";
 
 USE "Data Warehouse Project"; -- Switch to the new database. 
