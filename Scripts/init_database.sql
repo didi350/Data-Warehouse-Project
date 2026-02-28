@@ -15,7 +15,7 @@ and ensure you have proper backups before running this script.
 USE master; -- Switch to the master database (system) to create your new project database.
 
 -- Check if the "Data Warehouse Project" database exists, then drop and recreate it.
--- But beware if there's data in it and it's been worked on, because you won't be able to bring it back.
+-- But beware if it has data and it's been worked on, because you won't be able to bring it back.
 /*
 IF EXISTS (SELECT 1 FROM sys. databases WHERE name = 'Data Warehouse Project')
 BEGIN
